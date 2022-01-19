@@ -36,3 +36,14 @@ The last t-test was done on a sample of manufacturing lot 3. Based off of test a
 Based off of the t-tests done on the samples and the corresponding p-values, we are unable to reject the null hypothesis on any of the tests. Therefore, our findings here are statistically inconclusive.
 
 ## Study Design: MechaCar vs Competition
+
+I would design an ANOVA test to determine how household income-level effects car-buying. Analyzing the variance between household income levels could determine if household income plays a critical role in purchasing a vehicle. I would collect data on the following:
+
+* Car Sales by manufacturer (IV)
+* Household Income Level (DV)
+
+Hypothesis:
+H0: The means of all HH Income Levels are the same.
+HA: At least one of the means of HH Income levels is different from all the other groups 
+
+For this test to work, we would need to collect data on car purchases and household income levels. This could come from a third-party data provider that collects this information or a large research firm that does incentivized surveys that we trust. 
