@@ -14,15 +14,25 @@ The current linear model used to predict mpg of the MechaCar does it uneffective
 
 Below, is a chart of a regression model of just the vehicle length, which was statistically significant with a p-value less than .05 and also had the largest coefficient.  
 
-![alt text](https://github.com/griswld2/MechaCar_Statistical_Analysis/blob/main/Images/RPlot.PNG)
+![alt text](https://github.com/griswld2/MechaCar_Statistical_Analysis/blob/main/Images/RPlot.png)
 
 ## Summary Statistics on Suspension Coils
 The current manufacturing lots in total meet the requirement. The variance seen on PSI is < 100. However, when grouping by the lots, Lot 3 does not meet the requirement of having a PSI variance < 100. The PSI variance on Lot 3 is 170.29.
 
 ## T-Tests on Suspension Coils
+
 ![alt text](https://github.com/griswld2/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_Screenshot1.PNG)
+The first t-test was done on a sample of all of the manufacturing lots. Based off of test and our random sample, we received a P-Value > .05. This means that we cannot reject the null hypothesis.
+
 ![alt text](https://github.com/griswld2/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_Lot1Screenshot.PNG)
+
+The next t-test was done on a sample of manufacturing lot 1. Based off of test and our random sample, we received a P-Value > .05. This means that we cannot reject the null hypothesis.
 ![alt text](https://github.com/griswld2/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_Lot2SS.PNG)
+The third t-test was done on a sample of manufacturing lot 2. Based off of test and our random sample, we received a P-Value > .05. This means that we cannot reject the null hypothesis.
+
 ![alt text](https://github.com/griswld2/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_Lot3SS.PNG)
+The last t-test was done on a sample of manufacturing lot 3. Based off of test and our random sample, we received a P-Value > .05. This means that we cannot reject the null hypothesis.
+
+Based off of the t-tests done on the samples and the corresponding p-values, we are unable to reject the null hypothesis on any of the tests. Therefore, our findings here are statistically inconclusive.
 
 ## Study Design: MechaCar vs Competition
